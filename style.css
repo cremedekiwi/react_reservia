@@ -1,15 +1,33 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; /* calculer la page du site sans surplus */
+/* Universal CSS */
+
+*,*:before, *:after {
+    box-sizing: border-box ; 
+    padding: 0 ;
+    margin: 0 ;  
 }
 
+input,textarea {
+    outline:none
+}
+
+button,input[type="submit"]{
+    outline:none;
+    border:none;
+}
+
+li, a {
+    text-decoration:none;
+}
+
+/* General */
 
 body {
     font-family: 'Raleway', serif;
     font-size: 13px;
+    /* 
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    */    
 }
 
 #container {
@@ -17,12 +35,21 @@ body {
 	max-width: 1440px;
 }
 
-/* Liens */
-a {
-    outline: none;
-    text-decoration: none;
+section {
+    margin-top: 42px;
+    margin-left: 55px;
 }
-  
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 17px;
+}
+
+/* Liens */
 a:link {
 color: black;
 }
@@ -34,7 +61,7 @@ color: black;
 a:hover {
 color: #0065fc;    
 border-top: 2px solid;
-padding-top: 49px;
+padding-top: 61px;
 }
 
 a:active {
@@ -77,4 +104,95 @@ nav li {
     display: flex;
     justify-content: space-around;
     background-color: red;
+}
+
+/* Rechercher */
+
+#search_container {
+    display: flex;
+    margin-top: 23px;
+    height: 52px;
+    width: 420px;
+}
+
+.fa-map-marker-alt {
+    border-radius: 16px 0px 0px 16px;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 52px;
+    width: 52px;
+    padding-top: 17px;
+}
+
+#search_container input {
+    border-style: solid;
+    border-right-style: none;
+    border-color:#9c9c9c;
+    opacity: 0.1;
+    border: 1;
+    height: 100%;
+    width: 234px;
+}
+
+#search_container button {
+    border-radius: 0px 16px 16px 0px;
+    border: 0;
+    background-color: #0065fc;
+    color: white;
+    height: 100%;
+    width: 134px;
+}
+
+/* Filter */
+
+#filter_container {
+    margin-top: 31px;
+    width: 929px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#filter_container h2 {
+    padding-top: 17px;
+}
+
+.filter_button {
+    border-radius: 0px 25px 25px 0px;
+    border: 2;
+    border-style: solid;
+    border-left-style: none;
+    border-color:#d9d9d9;
+    background-color: white;
+    font-weight: bold;
+    height: 100%;
+    padding: 0 15px 0 15px;   
+}
+
+.input-icon {
+    position:relative;
+}
+
+.input-icon i {
+    position:absolute;
+    left:-21px;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    background-color: #deebff;
+    color: #0065fc;
+    height: 50px;
+    width: 50px;
+    padding-top: 17px;
+}
+
+.input-icon input {
+    border-radius: 0px 25px 25px 0px;
+    border: 2;
+    border-style: solid;
+    border-left-style: none;
+    border-color:#d9d9d9;
+    background-color: white;
+    font-weight: bold;
+    height: 100%;
+    padding: 0 15px 0 40px;   
 }
