@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
-    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.14.0/css/all.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2ac059c1a5.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css"> 
   </head>
   <body>
     <div id="container">
+      <!-- Header -->
       <header>
         <img src="images/logo/Reservia.svg" alt="logo">
+        <!-- Menu -->
         <nav>
           <ul>
             <li><a href="#">Hébergements</a></li>
@@ -23,54 +27,42 @@
         </nav>
       </header>
       <main>
-        
         <section>
           <div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
           </div>
-
+          <!-- Rechercher -->
           <form>
             <div id="search_container">
               <i class="fas fa-map-marker-alt"></i>
               <input type="search" id="site-search" name="q" aria-label="Search through site content">
-              <a href="#"><button>Rechercher</button></a>
+              <button>Rechercher</button>
             </div>
-
             <div id="filter_container">
               <div>
                 <h2>Filtres</h2>
               </div>
               <div class="input-icon">
                 <i class="fas fa-money-bill-wave"></i>
-                <a href="#"><input type="button" value="Economique"></a>
+                <input type="button" value="Economique">
               </div>
               <div class="input-icon">
                 <i class="fas fa-child"></i>
-                <a href="#"><input type="button" value="Familial"></a>
+                <input type="button" value="Familial">
               </div>
               <div class="input-icon">
                 <i class="fas fa-heart"></i>
-                <a href="#"><input type="button" value="Romantique"></a>
+                <input type="button" value="Romantique">
               </div>
               <div class="input-icon">
                 <i class="fas fa-dog"></i>
-                <a href="#"><input type="button" value="Animaux autorisés"></a>
+                <input type="button" value="Animaux autorisés">
               </div>
             </div>
-
           </form>
-
-        </section>
-
-
-        <section>
-        </section>
-        <section>
         </section>
       </main>
-      <footer>
-      </footer>
     </div>
   </body>
 </html>
