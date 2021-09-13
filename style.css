@@ -35,11 +35,6 @@ body {
 	max-width: 1440px;
 }
 
-section {
-    margin-top: 42px;
-    margin-left: 55px;
-}
-
 h1 {
     font-size: 25px;
     font-weight: bold;
@@ -81,13 +76,7 @@ nav li {
     margin-left: 67px;
 }
 
-.menu {
-    display: flex;
-    justify-content: space-around;
-    background-color: red;
-}
-
-/* Liens */
+/* Liens du menu */
 nav a:link {
     color: black;
     }
@@ -106,9 +95,15 @@ nav a:active {
     color: #0065fc;
 }
 
-/* Rechercher */
+/* Section rechercher */
+/* Formulaire */
 
-#search_container {
+#search {
+    margin-top: 42px;
+    margin-left: 55px;
+}
+
+#search_form {
     display: flex;
     margin-top: 23px;
     height: 52px;
@@ -124,7 +119,7 @@ nav a:active {
     padding: 20px;
 }
 
-#search_container input {
+#search_form input {
     border-style: solid;
     border-right-style: none;
     border-color:#9c9c9c;
@@ -134,7 +129,7 @@ nav a:active {
     width: 234px;
 }
 
-#search_container button {
+#search_form button {
     border-radius: 0px 16px 16px 0px;
     border: 0;
     background-color: #0065fc;
@@ -145,7 +140,7 @@ nav a:active {
 
 /* Filter */
 
-#filter_container {
+#search_filter {
     margin-top: 31px;
     width: 929px;
     height: 50px;
@@ -153,20 +148,8 @@ nav a:active {
     justify-content: space-between;
 }
 
-#filter_container h2 {
+#search_filter h2 {
     padding-top: 17px;
-}
-
-.filter_button {
-    border-radius: 0px 25px 25px 0px;
-    border: 2;
-    border-style: solid;
-    border-left-style: none;
-    border-color:#d9d9d9;
-    background-color: white;
-    font-weight: bold;
-    height: 100%;
-    padding: 0 15px 0 15px;   
 }
 
 .input-icon {
@@ -186,13 +169,36 @@ nav a:active {
 }
 
 .input-icon input {
-    border-radius: 0px 25px 25px 0px;
-    border: 2;
+    border-radius: 0px 50px 50px 0px;
+    border: 2px;
     border-style: solid;
     border-left-style: none;
     border-color:#d9d9d9;
     background-color: white;
     font-weight: bold;
+    font-size: 14px;
     height: 100%;
-    padding: 0 15px 0 40px;   
+    padding: 0 20px 0 40px;   
+}
+
+/* Search information */
+
+#search_information {
+    display: flex;
+    margin-top: 35px;
+}
+
+#search_information i {
+    border : 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 24px;
+    text-align: center;
+    color: #0065fc;
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+}
+
+#search_information p {
+    margin-left: 12px;
 }
