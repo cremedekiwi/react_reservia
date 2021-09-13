@@ -24,16 +24,13 @@ li, a {
 body {
     font-family: 'Raleway', serif;
     font-size: 13px;
-    /* 
-    display: flex;
-    justify-content: center;
-    */    
+    /* display: flex;
+    justify-content: center;  */
 }
 
 #container {
 	width: 100%;
 	max-width: 1440px;
-    margin-left: 55px;
 }
 
 h1 {
@@ -45,11 +42,20 @@ p {
     font-size: 17px;
 }
 
+body a:link, a:visited {
+    color: black;
+    }
+    
+body a:hover, a:active {
+    color: #0065fc;    
+}
+
 /* Header */
 
 header {
     display: flex;
     justify-content: space-between;
+    margin-left: 55px;
 }
 
 header img {
@@ -92,6 +98,7 @@ nav a:hover, a:active {
 
 #search {
     margin-top: 42px;
+    margin-left: 55px;
 }
 
 #search_form {
@@ -199,14 +206,7 @@ nav a:hover, a:active {
 #lodging {
     display: flex;
     margin-top: 40px;
-}
-
-#lodging a:link, a:visited {
-    color: black;
-    }
-    
-#lodging a:hover, a:active {
-    color: #0065fc;    
+    margin-left: 55px;
 }
 
 #lodging_marseille {
@@ -245,6 +245,7 @@ nav a:hover, a:active {
     width: 236px;
     height: 114px;
     padding-top: 5px;
+    object-fit: cover;
 }
 
 .lodging_marseille_info {
@@ -298,6 +299,7 @@ nav a:hover, a:active {
     width: 127px;
     height: 134px;
     margin: 5px;
+    object-fit: cover;
 }
 
 .lodging_popular_info {
@@ -308,4 +310,105 @@ nav a:hover, a:active {
 .lodging_popular_info i {
     margin-top: 10px;
     color: #0065fc;
+}
+
+/* Activités à Marseille*/
+
+#activity_title {
+    display: flex;
+    margin-top: 65px;
+    margin-left: 55px;    
+}
+
+#activity {
+    height: 446px;
+    width: 1340px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 26px;
+    margin-left: 55px;
+}
+
+#activity article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #e4e4e4;
+}
+
+.activity_vieuxPort_parcNational {
+    width: 302px;
+    height: 446px;
+}
+
+.activity_vieuxPort_parcNational img {
+    border-radius: 20px 20px 0 0;
+    width: 302px;
+    height: 390px;
+    object-fit: cover;
+}
+
+#activity_fortPomegues {
+    width: 302px;
+    height: 237px;
+}
+
+#activity_fortPomegues img {
+    border-radius: 20px 20px 0 0;
+    width: 302px;
+    height: 181px;
+    object-fit: cover;
+}
+
+#activty_ilesFrioul {
+    width: 302px;
+    height: 166px;
+}
+
+#activty_ilesFrioul img {
+    border-radius: 20px 20px 0 0;
+    width: 302px;
+    height: 110px;
+    object-fit: cover;
+}
+
+#activity_notreDameGarde {
+    width: 302px;
+    height: 196px;
+}
+
+#activity_notreDameGarde img {
+    border-radius: 20px 20px 0 0;
+    width: 302px;
+    height: 140px;
+    object-fit: cover;
+}
+
+#activty_parcLongchamp {
+    width: 302px;
+    height: 209px;
+}
+
+#activty_parcLongchamp img {
+    border-radius: 20px 20px 0 0;
+    width: 302px;
+    height: 153px;
+    object-fit: cover;
+}
+
+#activity h2 {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 60px;
+    background-color: #f2f2f2;
+    height: 218px;
 }
