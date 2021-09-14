@@ -1,9 +1,9 @@
 /* Universal CSS */
 
 *,*:before, *:after {
-    box-sizing: border-box ; 
-    padding: 0 ;
-    margin: 0 ;  
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;  
 }
 
 input,textarea {
@@ -24,8 +24,6 @@ li, a {
 body {
     font-family: 'Raleway', serif;
     font-size: 13px;
-    /* display: flex;
-    justify-content: center;  */
 }
 
 #container {
@@ -34,12 +32,8 @@ body {
 }
 
 h1 {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 body a:link, a:visited {
@@ -55,42 +49,49 @@ body a:hover, a:active {
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 55px;
+    /* Mettre le logo et la nav à l'opposé */
+    margin-top: 42px;
+    margin-left: 53px;
 }
+
+/* Logo */
 
 header img {
     width: 97px;
     height: 45px;
-    margin-top: 44px;
 }
 
-/* nav */
+/* Menu */
 
 nav {
     display: flex;
-    align-items: center;
+    align-items : center;
+}
+
+#nav_subscribe a {
+    font-weight: bold;
+    color: #0065fc;
 }
 
 nav ul {
     display: flex;
-    margin-top: 51px;
     margin-right: 77px;
 }
 
 nav li {
     list-style-type: none;
-    margin-left: 67px;
+    margin-left: 5em;
 }
 
 /* Liens du menu */
 nav a:link, a:visited {
     color: black;
-    }
+}
     
 nav a:hover, a:active {
     color: #0065fc;    
     border-top: 2px solid;
-    padding-top: 61px;
+    padding-top: 55px;
 }
 
 /* Section rechercher */
@@ -98,7 +99,11 @@ nav a:hover, a:active {
 
 #search {
     margin-top: 42px;
-    margin-left: 55px;
+    margin-left: 4%;
+}
+
+#search_title p {
+    margin-top: 1%;
 }
 
 #search_form {
@@ -108,16 +113,20 @@ nav a:hover, a:active {
     width: 420px;
 }
 
+/* Icone Maps*/
+
 .fa-map-marker-alt {
     border-radius: 14px 0px 0px 14px;
     text-align: center;
     background-color: #f2f2f2;
-    height: 52px;
     width: 52px;
+    height: 52px;
     padding: 20px;
 }
 
-#search_form input {
+/* Text Area */
+
+#site_search {
     border-style: solid;
     border-right-style: none;
     border-color:#9c9c9c;
@@ -127,6 +136,8 @@ nav a:hover, a:active {
     width: 234px;
 }
 
+/* Search Link */
+
 #search_form button {
     border-radius: 0px 14px 14px 0px;
     border: 0;
@@ -134,6 +145,10 @@ nav a:hover, a:active {
     color: white;
     height: 100%;
     width: 134px;
+}
+
+.search_form_button_icon {
+    visibility: hidden;
 }
 
 /* Filter */
@@ -175,7 +190,7 @@ nav a:hover, a:active {
     background-color: white;
     font-weight: bold;
     font-size: 14px;
-    height: 100%;
+    height: 50px;
     padding: 0 20px 0 40px; 
 }
 
@@ -198,6 +213,7 @@ nav a:hover, a:active {
 }
 
 #search_information p {
+    margin-top: 5px;
     margin-left: 12px;
 }
 
@@ -206,7 +222,7 @@ nav a:hover, a:active {
 #lodging {
     display: flex;
     margin-top: 40px;
-    margin-left: 55px;
+    margin-left: 4%;
 }
 
 #lodging_marseille {
@@ -317,7 +333,7 @@ nav a:hover, a:active {
 #activity_title {
     display: flex;
     margin-top: 65px;
-    margin-left: 55px;    
+    margin-left: 4%;    
 }
 
 #activity {
@@ -329,7 +345,7 @@ nav a:hover, a:active {
     justify-content: space-between;
     align-content: space-between;
     margin-top: 26px;
-    margin-left: 55px;
+    margin-left: 4%;
 }
 
 #activity article {

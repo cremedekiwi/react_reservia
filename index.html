@@ -10,25 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">  
   </head>
   <body>
     <div id="container">
       <!-- Header -->
       <header>
         <img src="images/logo/Reservia.svg" alt="logo">
-        <!-- Menu -->
         <nav>
           <ul>
             <li><a href="#">Hébergements</a></li>
             <li><a href="#">Activités</a></li>
-            <li><a href="#" style="color: #0065fc;"><strong>S'inscrire</strong></a></li>
+            <li id="nav_subscribe"><a href="#">S'inscrire</a></li>
           </ul>
         </nav>
       </header>
       <main>
         <section id="search">
-          <div>
+          <div id="search_title">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
           </div>
@@ -36,8 +36,9 @@
           <form>
             <div id="search_form">
               <i class="fas fa-map-marker-alt"></i>
-              <input type="search" id="site-search" name="q" aria-label="Search through site content">
-              <button>Rechercher</button>
+              <input type="search" id="site_search" name="q" aria-label="Search through site content">
+              <button id="search_form_button_text">Rechercher</button>
+              <i class="fas fa-search search_form_button_icon"></i>
             </div>
             <div id="search_filter">
               <div>
@@ -213,6 +214,7 @@
             </div>
           </div>
         </section>
+        <!-- Activity -->
         <section>
           <div id="activity_title">
             <h1>Activités à Marseille</h1>
@@ -257,6 +259,7 @@
           </div>         
         </section>
       </main>
+      <!-- Footer -->
       <footer>
         <div>
           <h3>A propos</h3>
