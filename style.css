@@ -408,7 +408,27 @@ nav a:hover, a:active {
 /* Footer */
 
 footer {
-    margin-top: 60px;
-    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-evenly;
     height: 218px;
+    background-color: #f2f2f2;
+    margin-top: 60px;
+    padding-top: 52px;
+}
+
+footer h3 {
+    margin-left: 0px;
+}
+
+footer ul {
+    margin-top: 29px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer h3 {
+    margin: 0;
+    padding: 0;
 }
