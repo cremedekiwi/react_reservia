@@ -1,7 +1,7 @@
 /* Universal CSS */
 
 *,*:before, *:after {
-    box-sizing: border-box; 
+    box-sizing: border-box; /* ne dépasse pas la div parente */
     padding: 0;
     margin: 0;  
 }
@@ -98,12 +98,12 @@ nav a:hover, a:active {
 /* Formulaire */
 
 #search {
-    margin-top: 42px;
-    margin-left: 4%;
+    margin-top: 50px;
+    margin-left: 54px;
 }
 
 #search_title p {
-    margin-top: 1%;
+    margin-top: 15px;
 }
 
 #search_form {
@@ -121,7 +121,9 @@ nav a:hover, a:active {
     background-color: #f2f2f2;
     width: 52px;
     height: 52px;
-    padding: 20px;
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
 }
 
 /* Text Area */
@@ -178,7 +180,9 @@ nav a:hover, a:active {
     color: #0065fc;
     height: 50px;
     width: 50px;
-    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .input-icon input {
@@ -209,11 +213,16 @@ nav a:hover, a:active {
     color: #0065fc;
     height: 24px;
     width: 24px;
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #search_information p {
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 12px;
 }
 
@@ -222,7 +231,7 @@ nav a:hover, a:active {
 #lodging {
     display: flex;
     margin-top: 40px;
-    margin-left: 4%;
+    margin-left: 50px;
 }
 
 #lodging_marseille {
@@ -288,8 +297,8 @@ nav a:hover, a:active {
     margin-left: 40px;
 }
 
-#lodging_popular_title h1{
-    padding-top: 47px;
+#lodging_popular_title h1 {
+    padding-top: 46px;
     display: flex;
     justify-content: space-around;
 }
@@ -333,7 +342,7 @@ nav a:hover, a:active {
 #activity_title {
     display: flex;
     margin-top: 65px;
-    margin-left: 4%;    
+    margin-left: 50px;    
 }
 
 #activity {
@@ -345,7 +354,7 @@ nav a:hover, a:active {
     justify-content: space-between;
     align-content: space-between;
     margin-top: 26px;
-    margin-left: 4%;
+    margin-left: 50px;
 }
 
 #activity article {
