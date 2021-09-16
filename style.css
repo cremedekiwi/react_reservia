@@ -1,7 +1,7 @@
 /* Universal CSS */
 
 *,*:before, *:after {
-    box-sizing: border-box; /* ne dépasse pas la div parente */
+    box-sizing: border-box; /* ne dépasse pas la div parent */
     padding: 0;
     margin: 0;  
 }
@@ -23,7 +23,6 @@ li, a {
 
 body {
     font-family: 'Raleway', serif;
-    font-size: 13px;
 }
 
 #container {
@@ -32,8 +31,16 @@ body {
 }
 
 h1 {
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 0.95rem;
 }
 
 body a:link, a:visited {
@@ -50,15 +57,8 @@ header {
     display: flex;
     justify-content: space-between;
     /* Mettre le logo et la nav à l'opposé */
-    margin-top: 42px;
-    margin-left: 53px;
-}
-
-/* Logo */
-
-header img {
-    width: 97px;
-    height: 45px;
+    margin-top: 2.625rem;
+    margin-left: 3.125rem;
 }
 
 /* Menu */
@@ -68,6 +68,10 @@ nav {
     align-items : center;
 }
 
+nav a {
+    font-size: 1rem;
+}
+
 #nav_subscribe a {
     font-weight: bold;
     color: #0065fc;
@@ -75,12 +79,13 @@ nav {
 
 nav ul {
     display: flex;
-    margin-right: 77px;
+    margin-right: 4.813rem;
 }
 
 nav li {
     list-style-type: none;
-    margin-left: 5em;
+    margin-left: 4.188rem;
+    font-size: 0.813rem;
 }
 
 /* Liens du menu */
@@ -91,26 +96,25 @@ nav a:link, a:visited {
 nav a:hover, a:active {
     color: #0065fc;    
     border-top: 2px solid;
-    padding-top: 55px;
+    padding-top: 3.438rem;
 }
 
 /* Section rechercher */
 /* Formulaire */
 
 #search {
-    margin-top: 50px;
-    margin-left: 54px;
+    margin: 3.125rem;
 }
 
 #search_title p {
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 
 #search_form {
     display: flex;
-    margin-top: 23px;
-    height: 52px;
-    width: 420px;
+    margin-top: 1.438rem;
+    height: 3.25rem;
+    width: 26.25rem;
 }
 
 /* Icone Maps*/
@@ -120,7 +124,6 @@ nav a:hover, a:active {
     text-align: center;
     background-color: #f2f2f2;
     width: 52px;
-    height: 52px;
     display: flex; /* contexte sur le parent */
     flex-direction: column; /* direction d'affichage verticale */
     justify-content: center; /* alignement vertical */
@@ -131,11 +134,16 @@ nav a:hover, a:active {
 #site_search {
     border-style: solid;
     border-right-style: none;
-    border-color:#9c9c9c;
-    opacity: 0.1;
+    border-color:#f2f2f2;
     border: 1;
-    height: 100%;
-    width: 234px;
+    padding-left: 17px;
+    width: 14.625rem;
+}
+
+#search_form ::placeholder {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 /* Search Link */
@@ -145,8 +153,7 @@ nav a:hover, a:active {
     border: 0;
     background-color: #0065fc;
     color: white;
-    height: 100%;
-    width: 134px;
+    width: 8.375rem;
 }
 
 .search_form_button_icon {
@@ -156,14 +163,14 @@ nav a:hover, a:active {
 /* Filter */
 
 #search_filter {
-    margin-top: 31px;
-    width: 929px;
-    height: 50px;
     display: flex;
     justify-content: space-between;
+    margin-top: 1.938rem;
+    width: 65%;
 }
 
 #search_filter h2 {
+    font-size: 1.3rem;
     padding-top: 17px;
 }
 
@@ -202,48 +209,47 @@ nav a:hover, a:active {
 
 #search_information {
     display: flex;
-    margin-top: 35px;
+    margin-top: 2.188rem;
 }
 
 #search_information i {
+    font-size: 0.7rem;
     border : 1px solid;
     border-color: #d9d9d9;
-    border-radius: 12px;
+    border-radius: 1rem;
     text-align: center;
     color: #0065fc;
-    height: 24px;
-    width: 24px;
+    height: 1.5rem;
+    width: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #search_information p {
-    /* margin-top: 5px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 12px;
+    margin-left: 0.75rem;
 }
 
 /* Hébergements à Marseille */
 
 #lodging {
     display: flex;
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-top: 2.5rem;
+    margin-left: 3.125rem;
 }
 
 #lodging_marseille {
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 880px;
-    height: 626px;
+    width: 55rem;
 }
 
 #lodging_marseille h1, h3 {
-    padding-top: 47px;
-    padding-left: 40px;
+    padding-top: 2.938rem;
+    padding-left: 2.5rem;
 }
 
 #lodging_marseille_article_container {
@@ -253,12 +259,16 @@ nav a:hover, a:active {
     justify-content: space-evenly;
 }
 
+#lodging_marseille_article_container h2 {
+    font-size: 1rem;
+}
+
 #lodging_marseille article {
     background-color: white;
     border-radius: 20px;
-    width: 246px;
-    height: 199px;
-    margin-top: 27px;
+    width: 15.375rem;
+    height: 12.438rem;
+    margin-top: 1.688rem;
     box-shadow: 1px 1px 5px #e4e4e4;
 }
 
@@ -267,19 +277,19 @@ nav a:hover, a:active {
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px 15px 0 0;
-    width: 236px;
-    height: 114px;
-    padding-top: 5px;
+    width: 14.75rem;
+    height: 7.125rem;
+    padding-top: 0.313rem;
     object-fit: cover;
 }
 
 .lodging_marseille_info {
-    margin-top: 12px;
-    margin-left: 16px;
+    margin-top: 0.75rem;
+    margin-left: 1rem;
 }
 
 .lodging_marseille_info i {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     color: #0065fc;
 }
 
@@ -292,15 +302,21 @@ nav a:hover, a:active {
 #lodging_popular {
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 420px;
-    height: 626px;
-    margin-left: 40px;
+    width: 26.25rem;
+    height: 39.125rem;
+    margin-left: 2.5rem;
+}
+
+#lodging_popular h2 {
+    font-size: 1.1rem;
 }
 
 #lodging_popular_title h1 {
-    padding-top: 46px;
+    padding-top: 2.875rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
 }
 
 #lodging_popular_article_container {
@@ -313,27 +329,27 @@ nav a:hover, a:active {
     display: flex;
     background-color: white;
     border-radius: 20px;
-    width: 343px;
-    height: 144px;
-    margin-top: 27px;
+    width: 21.438rem;
+    height: 9rem;
+    margin-top: 1.688rem;
     box-shadow: 1px 1px 5px #e4e4e4;
 }
 
 #lodging_popular article img {
     border-radius: 15px 0 0px 15px;
-    width: 127px;
-    height: 134px;
-    margin: 5px;
+    width: 7.938rem;
+    height: 8.375rem;
+    margin: 0.313rem;
     object-fit: cover;
 }
 
 .lodging_popular_info {
-    margin-top: 12px;
-    margin-left: 16px;
+    margin-top: 0.75rem;
+    margin-left: 1rem;
 }
 
 .lodging_popular_info i {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     color: #0065fc;
 }
 
@@ -341,20 +357,18 @@ nav a:hover, a:active {
 
 #activity_title {
     display: flex;
-    margin-top: 65px;
-    margin-left: 50px;    
+    margin-top: 4.063rem;
+    margin-left: 3.125rem;    
 }
 
 #activity {
-    height: 446px;
-    width: 1340px;
+    height: 27.875rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
-    margin-top: 26px;
-    margin-left: 50px;
+    margin-top: 1.625rem;
+    margin-left: 3.125rem;
 }
 
 #activity article {
@@ -363,64 +377,55 @@ nav a:hover, a:active {
     background-color: white;
     border-radius: 20px;
     box-shadow: 1px 1px 5px #e4e4e4;
+    width: 302px;
 }
 
 .activity_vieuxPort_parcNational {
-    width: 302px;
     height: 446px;
 }
 
 .activity_vieuxPort_parcNational img {
     border-radius: 20px 20px 0 0;
-    width: 302px;
     height: 390px;
     object-fit: cover;
 }
 
 #activity_fortPomegues {
-    width: 302px;
     height: 237px;
 }
 
 #activity_fortPomegues img {
     border-radius: 20px 20px 0 0;
-    width: 302px;
     height: 181px;
     object-fit: cover;
 }
 
 #activty_ilesFrioul {
-    width: 302px;
     height: 166px;
 }
 
 #activty_ilesFrioul img {
     border-radius: 20px 20px 0 0;
-    width: 302px;
     height: 110px;
     object-fit: cover;
 }
 
 #activity_notreDameGarde {
-    width: 302px;
     height: 196px;
 }
 
 #activity_notreDameGarde img {
     border-radius: 20px 20px 0 0;
-    width: 302px;
     height: 140px;
     object-fit: cover;
 }
 
 #activty_parcLongchamp {
-    width: 302px;
     height: 209px;
 }
 
 #activty_parcLongchamp img {
     border-radius: 20px 20px 0 0;
-    width: 302px;
     height: 153px;
     object-fit: cover;
 }
