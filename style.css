@@ -44,16 +44,16 @@ a:active {
 /* Header */
 
 header {
+  display: flex;
+  justify-content: space-between;
   margin-left: 5vw;
-  margin-top: 5.78vh;
+  margin-top: 4vh;
 }
 
 /* Menu */
 
 nav {
-  position: absolute;
-  right: 5.35vw;
-  top: 5.67vh;
+  margin-right: 5vw;
 }
 
 nav a {
@@ -69,7 +69,7 @@ nav a:hover,
 a:active {
   color: #0065fc;
   border-top: 2px solid;
-  padding-top: 5.45vh;
+  padding-top: 3.806vh;
 }
 
 #nav_subscribe a {
@@ -79,7 +79,7 @@ a:active {
 }
 
 nav ul {
-  gap: 4.65vw;
+  gap: 67px;
   display: flex;
 }
 
@@ -91,17 +91,18 @@ nav li {
 /* Formulaire */
 
 #search {
+  margin-top: 50px;
   margin-left: 5vw;
 }
 
 #search_title p {
-  margin-top: 1.67vh;
+  margin-top: 15px;
 }
 
 #search_form {
   display: flex;
-  margin-top: 2.11vh;
-  height: 5.67vh;
+  margin-top: 19px;
+  height: 51px;
 }
 
 /* Icone Maps*/
@@ -111,7 +112,7 @@ nav li {
   border-radius: 14px 0 0 14px;
   text-align: center;
   background-color: #f2f2f2;
-  width: 50px;
+  width: 52px;
   display: flex; /* contexte sur le parent */
   flex-direction: column; /* direction d'affichage verticale */
   justify-content: center; /* alignement vertical */
@@ -124,8 +125,8 @@ nav li {
   border-right-style: none;
   border-color: #f2f2f2;
   border: 1;
-  padding-left: 15px;
-  width: 16.25vw;
+  padding-left: 17px;
+  width: 234px;
 }
 
 #search_form ::placeholder {
@@ -141,7 +142,7 @@ nav li {
   border: 0;
   background-color: #0065fc;
   color: white;
-  width: 9.31vw;
+  width: 134px;
 }
 
 .search_form_button_icon {
@@ -152,13 +153,13 @@ nav li {
 
 #search_filter {
   display: flex;
-  margin-top: 3.45vh;
-  gap: 3vw;
+  margin-top: 31px;
+  gap: 50px;
 }
 
 #search_filter h2 {
   font-size: 1.3rem;
-  padding-top: 1.89vh;
+  padding-top: 18px;
 }
 
 .filter_icon {
@@ -196,7 +197,7 @@ nav li {
 
 #search_information {
   display: flex;
-  margin-top: 3.89vh;
+  margin-top: 35px;
 }
 
 #search_information i {
@@ -206,8 +207,8 @@ nav li {
   border-radius: 1rem;
   text-align: center;
   color: #0065fc;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 24px;
+  width: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,17 +218,19 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 0.75rem;
+  margin-left: 12px;
 }
 
 /* Blocs Hébergements */
 
 #lodging {
   height: 69.56vh;
+  margin-top: 37px;
   display: flex;
   justify-content: center;
-  margin-top: 4.11vh;
 }
+
+/* Hébergements */
 
 #lodging_marseille {
   background-color: #f2f2f2;
@@ -235,25 +238,16 @@ nav li {
   width: 61.11vw;
 }
 
-#lodging_popular {
-  background-color: #f2f2f2;
-  border-radius: 20px;
-  width: 26.39vw;
-  margin-left: 2.78vw;
-}
-
-/* Hébergements */
-
-#lodging_marseille h1,
-h3 {
-  padding-top: 5.046vh;
-  padding-left: 3vw;
+#lodging_marseille h1 {
+  margin-top: 47px;
+  margin-left: 4vw;
 }
 
 #lodging_marseille_article_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 1vw;
 }
 
 #lodging_marseille_article_container h2 {
@@ -263,9 +257,9 @@ h3 {
 #lodging_marseille article {
   background-color: white;
   border-radius: 20px;
-  width: 17.08vw;
-  height: 22.11vh;
-  margin-top: 1.688rem;
+  width: 17vw;
+  height: 22vh;
+  margin-top: 23px;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
@@ -274,42 +268,57 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px 15px 0 0;
-  width: 16.39vw;
-  height: 12.67vh;
-  padding-top: 0.55vh;
+  width: 16.6vw;
+  height: 13vh;
+  padding-top: 5px;
   object-fit: cover;
 }
 
 .lodging_marseille_info {
   margin-top: 0.5vh;
-  margin-left: 1vw;
+  margin-left: 16px;
 }
 
 .lodging_marseille_info p {
-  margin-top: 0.8vh;
+  margin-top: 0.5vh;
 }
 
 .lodging_marseille_info i {
   margin-top: 0.5vh;
   color: #0065fc;
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
 }
 
 .fa-star.star_grey {
   color: #d9d9d9; /* Icon Gris */
 }
 
+#lodging_marseille h3 {
+  margin-top: 4vh;
+  margin-left: 4vw;
+}
+
 /* Les plus populaires */
+
+#lodging_popular {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  width: 26.39vw;
+  margin-left: 2.78vw;
+}
 
 #lodging_popular h2 {
   font-size: 1.1rem;
 }
 
 #lodging_popular_title h1 {
-  padding-top: 2.875rem;
+  margin-top: 46px;
   display: flex;
   justify-content: space-between;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 1.8vw;
+  margin-right: 1.8vw;
 }
 
 #lodging_popular_article_container {
@@ -322,40 +331,45 @@ h3 {
   display: flex;
   background-color: white;
   border-radius: 20px;
-  width: 23.82vw;
+  width: 24vw;
   height: 16vh;
-  margin-top: 1.688rem;
+  margin-top: 26px;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
 #lodging_popular article img {
   border-radius: 15px 0 0 15px;
-  width: 8.82vw;
-  height: 14.89vh;
-  margin: 0.313rem;
+  width: 9vw;
+  height: 15.3vh;
+  margin-top: 5px;
+  margin-left: 5px;
   object-fit: cover;
 }
 
 .lodging_popular_info {
-  margin-top: 1vh;
-  margin-left: 1rem;
+  margin-top: 0.5vh;
+  margin-left: 21px;
 }
 
 .lodging_popular_info p {
-  margin-top: 1vh;
+  margin-top: 0.5vh;
 }
 
 .lodging_popular_info i {
-  margin-top: 4vh;
   color: #0065fc;
+  width: 12px;
+  height: 12px;
+  margin-top: 5vh;
+  margin-right: 2px;
 }
 
 /* Activités à Marseille*/
 
 #activity_title {
   display: flex;
-  margin-top: 7.22vh;
+  margin-top: 65px;
   margin-left: 5vw;
+  margin-bottom: 26px;
 }
 
 #activity {
@@ -365,8 +379,9 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 5vw;
-  margin-top: 3vh;
+  margin: 0 auto;
+  align-content: center;
+  gap: 2vw;
 }
 
 #activity article {
@@ -384,9 +399,10 @@ h3 {
 }
 
 #activity h2 {
-  margin-top: 2vh;
-  margin-left: 1.2vw;
+  margin-top: 2.5vh;
+  margin-left: 1vw;
 }
+
 .activity_vieuxPort_parcNational {
   height: 49.56vh;
 }
@@ -425,12 +441,12 @@ h3 {
 /* Footer */
 
 footer {
-  margin-top: 6.67vh;
+  margin-top: 61px;
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
-  gap: 15.76vw;
-  height: 24.22vh;
+  gap: 227px;
+  height: 218px;
   padding-left: 5vw;
 }
 
@@ -440,8 +456,5 @@ footer h3 {
 }
 
 footer ul {
-  margin-top: 2.55vh;
-}
-footer li {
-  list-style-type: none;
+  margin-top: 23px;
 }
