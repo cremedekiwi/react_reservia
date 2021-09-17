@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   header {
-    margin-left: 5.33vw; /* 20px */
-    margin-top: 4.80vh; /* 32px */
+    margin-left: 5vw;
+    margin-top: 4.80vh;
   }
 
   nav {
@@ -95,10 +95,9 @@
     background-color: #0065fc;
     color: white;
     width: 51px;
-    /* margin-left: -134px; */
-    display: flex; /* contexte sur le parent */
-    flex-direction: column; /* direction d'affichage verticale */
-    justify-content: center; /* alignement vertical */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
 
@@ -116,7 +115,7 @@
     width: 20.5rem;
   }
 
-  .input-icon {
+  .filter_icon {
     /* Icon Filtres */
     margin-top: 18px;
     margin-left: 1.25rem;
@@ -143,7 +142,7 @@
     order: -1;
     border-radius: 0;
     width: 100%;
-    height: 86.96vh; /* 580px */
+    height: 86.96vh;
     margin-left: 0;
   }
 
@@ -164,7 +163,9 @@
   }
 
   #lodging_popular_title h1 {
-    padding-top: 1rem;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     display: flex;
     width: 100%;
   }
@@ -176,26 +177,26 @@
   }
 
   #lodging_popular article {
-    width: 89.07vw; /* 334px */
-    height: 21.59vh; /* 144px */
+    width: 89.07vw;
+    height: 21.59vh;
   }
 
   #lodging_popular article img {
-    width: 33.87vw; /* 127px */
-    height: 20.09vh; /* 134px */
+    width: 33.87vw;
+    height: 20.09vh;
   }
 
   /* Hébergements à Marseille */
 
   #lodging_marseille article {
-    width: 89.33vw; /* 335px */
-    height: 29.84vh; /* 199px */
+    padding: 0.2rem;
+    width: 89.33vw;
+    height: 29.84vh;
   }
 
   #lodging_marseille article img {
-    margin: 0.3rem;
-    width: 86.67vw; /* 325px */
-    height: 17.09vh; /* 114x */
+    width: 89.33vw;
+    height: 17.09vh;
   }
 
   /* Activités à Marseille*/
@@ -225,13 +226,18 @@
     height: 8.375rem;
   }
 
+  #activity h2 {
+    margin-left: 4vw;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 72.86vh; /* 486px */
-    padding-left: 7.73vw; /* 29px */
+    height: 72.86vh;
+    padding-left: 7.73vw;
+    margin-top: 3vh;
   }
 }
 
