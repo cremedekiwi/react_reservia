@@ -41,6 +41,18 @@ a:active {
   color: #0065fc;
 }
 
+/* Icon */
+
+.fa-star {
+  color: #0065fc;
+  width: 12px;
+  height: 12px;
+}
+
+.fa-star.star_grey {
+  color: #d9d9d9;
+}
+
 /* Header */
 
 header {
@@ -206,14 +218,14 @@ nav li {
 }
 
 #search_information i {
+  height: 24px;
+  width: 24px;
   font-size: 0.7rem;
+  text-align: center;
+  color: #0065fc;
   border: 1px solid;
   border-color: #d9d9d9;
   border-radius: 1rem;
-  text-align: center;
-  color: #0065fc;
-  height: 24px;
-  width: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -266,9 +278,6 @@ nav li {
   height: 22vh;
   margin-top: 23px;
   box-shadow: 1px 1px 5px #e4e4e4;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 #lodging_marseille article img {
@@ -277,23 +286,22 @@ nav li {
   margin-right: auto;
   border-radius: 15px 15px 0 0;
   width: 16.5vw;
-  height: 14.2vh;
+  height: 13vh;
   object-fit: cover;
 }
 
 .lodging_marseille_info {
+  margin-top: 1vh;
   margin-left: 16px;
 }
 
-.lodging_marseille_info i {
-  color: #0065fc;
-  width: 12px;
-  height: 12px;
-  margin-right: 2px;
+.lodging_marseille_info p {
+  margin-top: 0.5vh;
 }
 
-.fa-star.star_grey {
-  color: #d9d9d9; /* Icon Gris */
+.lodging_marseille_info i {
+  margin-top: 0.5vh;
+  margin-right: 2px;
 }
 
 #lodging_marseille h3 {
@@ -336,7 +344,6 @@ nav li {
   border-radius: 20px;
   width: 24vw;
   height: 16vh;
-  /* margin-top: 26px; */
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
@@ -366,7 +373,7 @@ nav li {
 
 .lodging_popular_info i {
   margin-bottom: 8%;
-  color: #0065fc;
+  margin-right: 2px;
 }
 
 .loging_popular_info_star {
