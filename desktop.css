@@ -84,9 +84,9 @@ a:visited {
 }
 
 nav a:hover {
-  color: #0065fc;
-  border-top: 2px solid;
-  padding-top: 3.806vh;
+  /* color: #0065fc; */
+  border-top: 2px solid #0065fc;
+  padding-top: 50px;
 }
 
 #nav_subscribe a {
@@ -251,6 +251,7 @@ input[type="submit"].btn:hover {
 
 #lodging {
   height: 69.56vh;
+  /* height: 100%; */
   margin-top: 37px;
   display: flex;
   justify-content: center;
@@ -366,7 +367,7 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 1.2vw;
+  margin-left: 0.8vw;
 }
 
 .lodging_popular_info h2 {
