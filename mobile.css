@@ -119,6 +119,11 @@
     margin-left: 20px;
   }
 
+  #search_information i {
+    height: 19px;
+    width: 24px;
+  }
+
   #search_information p {
     font-size: 1rem;
   }
