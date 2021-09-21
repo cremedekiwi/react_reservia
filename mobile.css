@@ -53,12 +53,16 @@
 
   #search {
     margin-top: 107px;
+    margin-left: 0px;
+  }
+
+  #search_title {
     margin-left: 20px;
   }
 
   #search_form {
     display: flex;
-    margin: 0 auto; /* Centrer le bloc de recherche */
+    margin: 0 auto; 
     margin-top: 35px;
     width: 334px;
     height: 51px;
@@ -101,9 +105,8 @@
 
   #search_filter {
     margin-top: 36px;
-    margin-left: 20px;
+    margin-left: 40px;
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 30px;
   }
 
@@ -112,6 +115,14 @@
     width: 100vw;
   }
 
+  #search_information {
+    margin-left: 20px;
+  }
+
+  #search_information p {
+    font-size: 1rem;
+  }
+  
   /* Blocs Hébergements */
 
   #lodging {
