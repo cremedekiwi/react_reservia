@@ -281,9 +281,8 @@ nav li {
 }
 
 #lodging_marseille article img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
   border-radius: 15px 15px 0 0;
   width: 16.5vw;
   height: 13vh;

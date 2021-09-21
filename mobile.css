@@ -193,6 +193,8 @@
   }
 
   #lodging_marseille article img {
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
     width: 325px;
     height: 114px;
   }
