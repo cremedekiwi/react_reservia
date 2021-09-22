@@ -51,6 +51,8 @@ a:active {
 
 .fa-star.star_grey {
   color: #d9d9d9;
+  width: 12px;
+  height: 12px;
 }
 
 /* Header */
@@ -58,8 +60,8 @@ a:active {
 header {
   display: flex;
   justify-content: space-between;
-  margin-left: 5vw;
-  margin-top: 4vh;
+  margin-left: 3.68%;
+  padding-top: 47px;
 }
 
 header img {
@@ -71,7 +73,7 @@ header img {
 /* Menu */
 
 nav {
-  margin-right: 5vw;
+  margin-right: 5.34%;
 }
 
 nav a {
@@ -86,7 +88,7 @@ a:visited {
 nav a:hover {
   /* color: #0065fc; */
   border-top: 2px solid #0065fc;
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 #nav_subscribe a {
@@ -109,7 +111,7 @@ nav li {
 
 #search {
   margin-top: 50px;
-  margin-left: 5vw;
+  margin-left: 3.68%;
 }
 
 #search_title p {
@@ -225,7 +227,7 @@ input[type="submit"].btn:hover {
   margin-top: 35px;
 }
 
-#search_information i {
+#search_information_i i {
   height: 24px;
   width: 24px;
   font-size: 0.7rem;
@@ -249,8 +251,7 @@ input[type="submit"].btn:hover {
 /* Blocs Hébergements */
 
 #lodging {
-  height: 69.56vh;
-  /* height: 100%; */
+  height: 100%;
   margin-top: 37px;
   display: flex;
   justify-content: center;
@@ -261,19 +262,19 @@ input[type="submit"].btn:hover {
 #lodging_marseille {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 61.11vw;
+  width: 61.11%;
 }
 
 #lodging_marseille h1 {
   margin-top: 47px;
-  margin-left: 4vw;
+  margin-left: 4.65%;
 }
 
 #lodging_marseille_article_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1vw;
+  gap: 3.52%;
 }
 
 #lodging_marseille_article_container h2 {
@@ -283,36 +284,34 @@ input[type="submit"].btn:hover {
 #lodging_marseille article {
   background-color: white;
   border-radius: 20px;
-  width: 17vw;
-  height: 22vh;
+  width: 17.083vw;
+  height: 21.42vh;
   margin-top: 23px;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
 #lodging_marseille article img {
-  margin: 1.5% 1.5% 0 1.5%;
+  margin: 0.538vh 0.347vw 0 0.347vw;
   border-radius: 15px 15px 0 0;
-  width: 16.5vw;
-  height: 13vh;
+  width: 16.38vw;
+  height: 12.27vh;
   object-fit: cover;
 }
 
 .lodging_marseille_info {
-  margin-left: 16px;
+  margin-left: 1.11vw;
 }
 
 .lodging_marseille_info p {
-  margin-top: 0.5vh;
+  margin-top: 0.753vh;
 }
 
 .lodging_marseille_info i {
-  margin-top: 0.5vh;
-  margin-right: 2px;
+  margin: 0.861vh 0.138vw 0 0;
 }
 
 #lodging_marseille h3 {
-  margin-top: 4vh;
-  margin-left: 4vw;
+  margin: 43px 0 46px 4.65%;
 }
 
 /* Les plus populaires */
@@ -320,8 +319,8 @@ input[type="submit"].btn:hover {
 #lodging_popular {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 26.39vw;
-  margin-left: 2.78vw;
+  width: 29.16%;
+  margin-left: 2.77%;
 }
 
 #lodging_popular h1 {
@@ -329,8 +328,8 @@ input[type="submit"].btn:hover {
   justify-content: space-between;
   margin-top: 46px;
   margin-bottom: 26px;
-  margin-left: 1.8vw;
-  margin-right: 1.8vw;
+  margin-left: 9.04%;
+  margin-right: 9.28%;
 }
 
 #lodging_popular h2 {
@@ -348,17 +347,16 @@ input[type="submit"].btn:hover {
   display: flex;
   background-color: white;
   border-radius: 20px;
-  width: 24vw;
-  height: 16vh;
+  width: 23.819vw;
+  height: 15.5vh;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
 #lodging_popular article img {
   border-radius: 15px 0 0 15px;
-  width: 11vw;
-  height: 15vh;
-  margin-top: 0.5vh;
-  margin-left: 0.3vw;
+  width: 8.819vw;
+  height: 14.424vh;
+  margin: 0.538vh 1.38vw 0.538vh 0.347vw;
   object-fit: cover;
 }
 
@@ -366,44 +364,37 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 0.8vw;
 }
 
 .lodging_popular_info h2 {
-  margin-top: 10%;
+  margin-top: 19px;
 }
 
 .lodging_popular_info p {
-  margin-top: 5%;
+  margin-top: 12px;
 }
 
 .lodging_popular_info i {
-  margin-bottom: 8%;
-  margin-right: 2px;
-}
-
-.loging_popular_info_star {
+  margin: 0 2px 14px 0;
 }
 
 /* Activités à Marseille*/
 
 #activity_title {
   display: flex;
-  margin-top: 65px;
-  margin-left: 5vw;
-  margin-bottom: 26px;
+  margin: 65px 0 26px 3.68%;
 }
 
 #activity {
-  width: 92.85vw;
-  height: 49.56vh;
+  width: 92.847vw;
+  height: 48vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   align-content: center;
-  gap: 2vw;
+  gap: 3.125%;
 }
 
 #activity article {
@@ -412,7 +403,7 @@ input[type="submit"].btn:hover {
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 1px 5px #e4e4e4;
-  width: 20.97vw;
+  width: 20.972vw;
 }
 
 #activity article img {
@@ -424,15 +415,15 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1vw;
+  margin-left: 6.29%;
   height: 100%;
 }
 
 .activity_vieuxPort_parcNational {
-  height: 49.56vh;
+  height: 48vh;
 }
 .activity_vieuxPort_parcNational img {
-  height: 43.33vh;
+  height: 41.98vh;
 }
 
 #activity_fortPomegues {
@@ -466,13 +457,13 @@ input[type="submit"].btn:hover {
 /* Footer */
 
 footer {
-  margin-top: 61px;
-  background-color: #f2f2f2;
   display: flex;
   align-items: center;
-  gap: 227px;
-  height: 218px;
-  padding-left: 5vw;
+  background-color: #f2f2f2;
+  height: 23.46vh;
+  margin-top: 6.458vh;
+  padding-left: 3.472vw;
+  gap: 15.76%;
 }
 
 footer h3 {
@@ -481,5 +472,5 @@ footer h3 {
 }
 
 footer ul {
-  margin-top: 23px;
+  margin-top: 2.475vh;
 }

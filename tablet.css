@@ -8,10 +8,6 @@
     margin-top: 3vh;
   }
 
-  nav {
-    position: unset;
-  }
-
   /* Menu S'inscrire */
 
   #nav_subscribe {
@@ -168,10 +164,9 @@
   }
 
   #lodging_popular article img {
-    width: 50vw;
-    height: 19.2vh;
-    margin-top: 0.4vh;
-    margin-left: 0.4vw;
+    width: 35.33vw;
+    height: 20vh;
+    margin: 0 3vw 0 0;
   }
 
   /* Hébergements à Marseille */
@@ -188,15 +183,14 @@
   }
 
   #lodging_marseille article {
-    width: 90vw;
-    height: 30vh;
+    width: 88.83vw;
+    height: 39.75vh;
   }
 
   #lodging_marseille article img {
-    width: 89vw;
-    height: 21vh;
-    margin-top: 0.5vh;
-    margin-left: 0.5vw;
+    width: 88.83vw;
+    height: 23vh;
+    margin: 0;
   }
 
   #lodging_marseille h3 {
@@ -222,20 +216,18 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 24px;
-    width: 90vw;
-    height: 30vh;
+    width: 89.166vw;
+    height: 38.125vh;
   }
 
   #activity article img {
-    width: 89vw;
-    height: 25vh;
-    padding-top: 0.4vh;
-    padding-left: 0.5vw;
+    width: 89.166vw;
+    height: 26.875vh;
   }
 
   .activity_h2 {
-    margin-left: 2vw;
-    height: 4vh;
+    margin-left: 4vw;
+    height: 10vh;
   }
 
   footer {
