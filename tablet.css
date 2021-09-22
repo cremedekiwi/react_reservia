@@ -4,16 +4,16 @@
   }
 
   header {
-    margin-left: 3vw;
-    margin-top: 3vh;
+    padding-top: 6.375vh;
+    margin-left: 5.33vw;
   }
 
   /* Menu S'inscrire */
 
   #nav_subscribe {
     position: absolute;
-    top: 3vh;
-    right: -17vw;
+    top: 8.5vh;
+    right: -15vw;
     border-bottom: 0;
   }
 
@@ -21,16 +21,16 @@
 
   #nav_lodging {
     position: absolute;
-    top: 12vh;
+    top: 19.875vh;
     left: 0;
-    height: 29px;
+    height: 30px;
   }
 
   #nav_activity {
     position: absolute;
-    top: 12vh;
+    top: 19.875vh;
     right: 0;
-    height: 29px;
+    height: 30px;
   }
 
   nav a:hover,
@@ -42,7 +42,7 @@
   nav li {
     margin-left: 0;
     width: 50%;
-    height: 29px;
+    height: 30px;
     text-align: center;
     border-bottom: 3px solid #f2f2f2;
   }
@@ -56,15 +56,20 @@
   /* Search */
 
   #search {
-    margin-top: 14vh;
-    margin-left: 3vw;
+    margin-top: 21.125vh;
+    margin-left: 0;
+  }
+
+  #search_title {
+    margin-left: 5.166vw;
   }
 
   #search_form {
     display: flex;
-    margin-top: 35px;
-    width: 334px;
-    height: 51px;
+    margin: 0 auto;
+    margin-top: 6vh;
+    width: 90vw;
+    height: 8vh;
   }
 
   /* Icon */
@@ -72,11 +77,13 @@
   .fa-map-marker-alt {
     /* Icon Maps */
     border-radius: 14px 0 0 14px;
-    width: 52px;
+    width: 8vh;
+    height: 8vh;
   }
 
   #site_search {
-    width: 230px;
+    width: 61.16vw;
+    padding-left: 4.5vw;
   }
 
   /* Search Link */
@@ -93,7 +100,7 @@
     visibility: visible;
     background-color: #0065fc;
     color: white;
-    width: 51px;
+    width: 8vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,18 +109,22 @@
 
   /* Filter */
 
-  #search_filter {
-    margin-top: 36px;
-    gap: 40px;
-  }
-
   #search_filter h2 {
-    padding-top: 10px;
+    padding-top: 0px;
     width: 100vw;
   }
 
+  #search_filter {
+    margin: 3vh 0 0 6vw;
+    gap: 20px;
+  }
+
   .filter_icon {
-    margin-left: 20px;
+    margin-left: 3vw;
+  }
+
+  #search_information {
+    margin-left: 5.16vw;
   }
 
   /* Blocs Hébergements */
@@ -133,7 +144,7 @@
     order: -1;
     border-radius: 0;
     width: 100%;
-    margin-top: 39px;
+    margin-top: 4vh;
     margin-left: 0;
   }
 
@@ -144,9 +155,9 @@
   }
 
   #lodging_popular_title h1 {
-    margin-top: 43px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-top: 7vh;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
     display: flex;
     width: 100%;
   }
@@ -154,19 +165,31 @@
   #lodging_popular_article_container {
     display: block;
     margin: 0 auto;
-    margin-bottom: 37px;
+    margin-bottom: 7.375vh;
   }
 
   #lodging_popular article {
     width: 90vw;
     height: 20vh;
-    margin-top: 26px;
+    margin-top: 3.75vh;
   }
 
   #lodging_popular article img {
     width: 35.33vw;
     height: 20vh;
     margin: 0 3vw 0 0;
+  }
+
+  .lodging_popular_info h2 {
+    margin-top: 3.75vh;
+  }
+  
+  .lodging_popular_info p {
+    margin-top: 2.5vh;
+  }
+  
+  .lodging_popular_info i {
+    margin: 0 0.333vw 2.75vh 0;
   }
 
   /* Hébergements à Marseille */
@@ -183,14 +206,30 @@
   }
 
   #lodging_marseille article {
-    width: 88.83vw;
-    height: 39.75vh;
+    width: 90vw;
+    height: 40vh;
   }
 
   #lodging_marseille article img {
-    width: 88.83vw;
-    height: 23vh;
-    margin: 0;
+    width: 90vw;
+    height: 25vh;
+  }
+
+  .lodging_marseille_info {
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4.166vw;
+  }
+  
+  .lodging_marseille_info p {
+    margin-top: 1.375vh;
+    font-size: 0.8rem;
+  }
+  
+  .lodging_marseille_info i {
+    margin: 1.375vh 0.333vw 0 0;
   }
 
   #lodging_marseille h3 {
@@ -216,18 +255,18 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 24px;
-    width: 89.166vw;
-    height: 38.125vh;
+    width: 90vw;
+    height: 38vh;
   }
 
   #activity article img {
-    width: 89.166vw;
-    height: 26.875vh;
+    width: 90vw;
+    height: 30vh;
   }
 
   .activity_h2 {
     margin-left: 4vw;
-    height: 10vh;
+    height: 7vh;
   }
 
   footer {

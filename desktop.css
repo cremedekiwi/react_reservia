@@ -60,8 +60,8 @@ a:active {
 header {
   display: flex;
   justify-content: space-between;
-  margin-left: 3.68%;
   padding-top: 47px;
+  margin-left: 3.68vw;
 }
 
 header img {
@@ -73,7 +73,7 @@ header img {
 /* Menu */
 
 nav {
-  margin-right: 5.34%;
+  margin-right: 5.347vw;
 }
 
 nav a {
@@ -86,7 +86,6 @@ a:visited {
 }
 
 nav a:hover {
-  /* color: #0065fc; */
   border-top: 2px solid #0065fc;
   padding-top: 45px;
 }
@@ -98,7 +97,7 @@ nav a:hover {
 }
 
 nav ul {
-  gap: 67px;
+  gap: 4.72vw;
   display: flex;
 }
 
@@ -110,17 +109,17 @@ nav li {
 /* Formulaire */
 
 #search {
-  margin-top: 50px;
-  margin-left: 3.68%;
+  margin-top: 5.38vh;
+  margin-left: 3.68vw;
 }
 
 #search_title p {
-  margin-top: 15px;
+  margin-top: 1.614vh;
 }
 
 #search_form {
   display: flex;
-  margin-top: 19px;
+  margin-top: 2.045vh;
   height: 51px;
 }
 
@@ -130,7 +129,8 @@ nav li {
   border-radius: 14px 0 0 14px;
   text-align: center;
   background-color: #f2f2f2;
-  width: 52px;
+  width: 51px;
+  height: 51px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,13 +172,15 @@ nav li {
 #search_filter {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 31px;
-  gap: 50px;
+  margin-top: 3.336vh;
+  gap: 3.4vw;
 }
 
 #search_filter h2 {
   font-size: 1.3rem;
-  padding-top: 18px;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .filter_icon {
@@ -187,7 +189,7 @@ nav li {
 
 .filter_icon i {
   position: absolute;
-  left: -23px;
+  left: -25px;
   border-radius: 25px;
   text-align: center;
   background-color: #deebff;
@@ -245,14 +247,13 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 12px;
+  margin-left: 0.83vw;
 }
 
 /* Blocs Hébergements */
 
 #lodging {
-  height: 100%;
-  margin-top: 37px;
+  margin-top: 3.98vh;
   display: flex;
   justify-content: center;
 }
@@ -262,19 +263,19 @@ input[type="submit"].btn:hover {
 #lodging_marseille {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 61.11%;
+  width: 61.11vw;
 }
 
 #lodging_marseille h1 {
-  margin-top: 47px;
-  margin-left: 4.65%;
+  margin-top: 5.059vh;
+  margin-left: 2.847vw;
 }
 
 #lodging_marseille_article_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3.52%;
+  gap: 2.15vw;
 }
 
 #lodging_marseille_article_container h2 {
@@ -286,7 +287,7 @@ input[type="submit"].btn:hover {
   border-radius: 20px;
   width: 17.083vw;
   height: 21.42vh;
-  margin-top: 23px;
+  margin-top: 2.475vh;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
@@ -311,7 +312,7 @@ input[type="submit"].btn:hover {
 }
 
 #lodging_marseille h3 {
-  margin: 43px 0 46px 4.65%;
+  margin: 4.628vh 0 4.95vh 3.055vw;
 }
 
 /* Les plus populaires */
@@ -319,17 +320,14 @@ input[type="submit"].btn:hover {
 #lodging_popular {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 29.16%;
-  margin-left: 2.77%;
+  width: 29.166vw;
+  margin-left: 2.777vw;
 }
 
 #lodging_popular h1 {
   display: flex;
   justify-content: space-between;
-  margin-top: 46px;
-  margin-bottom: 26px;
-  margin-left: 9.04%;
-  margin-right: 9.28%;
+  margin: 4.95vh 2.708vw 2.798vh 2.638vw;
 }
 
 #lodging_popular h2 {
@@ -340,7 +338,7 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  gap: 33px;
+  gap: 3.55vh;
 }
 
 #lodging_popular article {
@@ -367,22 +365,22 @@ input[type="submit"].btn:hover {
 }
 
 .lodging_popular_info h2 {
-  margin-top: 19px;
+  margin-top: 2.045vh;
 }
 
 .lodging_popular_info p {
-  margin-top: 12px;
+  margin-top: 1.29vh;
 }
 
 .lodging_popular_info i {
-  margin: 0 2px 14px 0;
+  margin: 0 0.138vw 1.506vh 0;
 }
 
 /* Activités à Marseille*/
 
 #activity_title {
   display: flex;
-  margin: 65px 0 26px 3.68%;
+  margin: 6.996vh 0 2.798vh 3.47vw;
 }
 
 #activity {
@@ -415,7 +413,7 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 6.29%;
+  margin-left: 1.319vw;
   height: 100%;
 }
 
@@ -463,7 +461,7 @@ footer {
   height: 23.46vh;
   margin-top: 6.458vh;
   padding-left: 3.472vw;
-  gap: 15.76%;
+  gap: 15.76vw;
 }
 
 footer h3 {
