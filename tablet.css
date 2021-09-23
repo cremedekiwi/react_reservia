@@ -1,16 +1,16 @@
 @media (min-width: 600px) and (max-width: 1365px) {
-  h1 {
-    font-size: 1.3rem;
+  #container {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
   }
 
   header {
-    padding-top: 0;
-    margin-left: 5.33vw;
+    margin-left: 33px;
   }
 
   header img {
-    padding-top: 5vh;
-    width: 20vw;
+    padding-top: 51px;
   } 
 
   /* Menu S'inscrire */
@@ -22,8 +22,8 @@
 
   #nav_subscribe {
     position: absolute;
-    top: 8.5vh;
-    right: -15vw;
+    top: 68px;
+    right: -40px;
     border-bottom: 0;
   }
 
@@ -31,16 +31,16 @@
 
   #nav_lodging {
     position: absolute;
-    top: 19.875vh;
+    top: 159px;
     left: 0;
-    height: 30px;
+    height: 46px;
   }
 
   #nav_activity {
     position: absolute;
-    top: 19.875vh;
+    top: 159px;
     right: 0;
-    height: 30px;
+    height: 46px;
   }
 
   nav a:hover,
@@ -52,7 +52,7 @@
   nav li {
     margin-left: 0;
     width: 50%;
-    height: 30px;
+    height: 46px;
     text-align: center;
     border-bottom: 3px solid #f2f2f2;
   }
@@ -66,20 +66,24 @@
   /* Search */
 
   #search {
-    margin-top: 21.125vh;
+    margin-top: 169px;
     margin-left: 0;
   }
 
   #search_title {
-    margin-left: 5.166vw;
+    margin-left: 31px;
+  }
+
+  #search_title h1{
+    font-size: 1.3rem;
   }
 
   #search_form {
     display: flex;
     margin: 0 auto;
-    margin-top: 6vh;
-    width: 90vw;
-    height: 6vh;
+    margin-top: 55px;
+    width: 534px;
+    height: 82px;
   }
 
   /* Icon */
@@ -87,13 +91,13 @@
   .fa-map-marker-alt {
     /* Icon Maps */
     border-radius: 14px 0 0 14px;
-    width: 6vh;
-    height: 6vh;
+    width: 84px;
+    height: 82px;
   }
 
   #site_search {
-    width: 61.16vw;
-    padding-left: 4.5vw;
+    width: 367px;
+    padding-left: 27px;
   }
 
   /* Search Link */
@@ -110,7 +114,7 @@
     visibility: visible;
     background-color: #0065fc;
     color: white;
-    width: 6vh;
+    width: 83px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,30 +122,31 @@
   }
 
   /* Filter */
+  
+  #search_filter {
+    padding-left: 50px;
+    margin: 32px 0 0 0;
+    gap: 42px;
+  }
 
   #search_filter h2 {
+    height: auto;
     padding-top: 0px;
     width: 100vw;
-  }
-
-  #search_filter {
-    margin: 3vh 0 0 6vw;
-    gap: 20px;
-  }
-
-  .filter_icon {
-    margin-left: 3vw;
+    position: relative;
+    left: -4vw;
   }
 
   #search_information {
-    margin-left: 5.16vw;
+    margin-left: 18px;
   }
 
   /* Blocs Hébergements */
 
   #lodging {
     height: 100%;
-    margin-top: 0px;
+    margin-top: 0;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
   }
@@ -154,8 +159,7 @@
     order: -1;
     border-radius: 0;
     width: 100%;
-    margin-top: 4vh;
-    margin-left: 0;
+    margin: 63px 0 0 0;
   }
 
   #lodging_popular_title {
@@ -165,41 +169,41 @@
   }
 
   #lodging_popular_title h1 {
-    margin-top: 7vh;
-    margin-left: 5.5vw;
-    margin-right: 5.5vw;
     display: flex;
     width: 100%;
+    margin: 68px 30px 0 33px;
   }
 
   #lodging_popular_article_container {
     display: block;
     margin: 0 auto;
-    margin-bottom: 7.375vh;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 59px;
   }
 
   #lodging_popular article {
-    width: 90vw;
-    height: 20vh;
+    width: 534px;
+    height: 230px;
     margin-top: 3.75vh;
   }
 
   #lodging_popular article img {
-    width: 35.33vw;
-    height: 20vh;
-    margin: 0 3vw 0 0;
+    width: 203px;
+    height: 215px;
+    margin: 8px 32px 0 8px;
   }
 
   .lodging_popular_info h2 {
-    margin-top: 3.75vh;
+    margin-top: 30px;
   }
   
   .lodging_popular_info p {
-    margin-top: 2.5vh;
+    margin-top: 20px;
   }
   
   .lodging_popular_info i {
-    margin: 0 0.333vw 2.75vh 0;
+    margin: 0 2px 22px 0;
   }
 
   /* Hébergements à Marseille */
@@ -212,90 +216,90 @@
   }
 
   #lodging_marseille h1 {
-    margin-left: 5vw;
+    margin-left: 33px;
   }
 
   #lodging_marseille article {
-    width: 90vw;
-    height: 38vh;
+    width: 536px;
+    height: 319px;
   }
 
   #lodging_marseille article img {
-    width: 90vw;
-    height: 25vh;
+    width: 522px;
+    height: 183px;
   }
 
   .lodging_marseille_info {
-    height: 11vh;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 4.166vw;
+    margin-left: 26px;
   }
   
   .lodging_marseille_info p {
-    margin-top: 1.375vh;
+    margin-top: 10px;
     font-size: 0.8rem;
   }
   
   .lodging_marseille_info i {
-    margin: 1.375vh 0.333vw 0 0;
+    margin: 11px 2px 0 0;
   }
 
   #lodging_marseille h3 {
-    margin-top: 35px;
-    margin-left: 5vw;
+    margin-top: 55px;
+    margin-left: 31px;
   }
 
   /* Activités à Marseille*/
 
   #activity_title {
-    margin-top: 5vh;
-    margin-left: 5vw;
+    margin-top: 91px;
+    margin-left: 33px;
   }
 
   #activity {
-    margin-top: 32px;
-    margin-left: 0;
+    margin: 51px 0 0 0;
     height: 100%;
     width: 100%;
+    gap: 27px;
   }
 
   #activity article {
     display: block;
     margin: 0 auto;
-    margin-bottom: 24px;
-    width: 90vw;
-    height: 35vh;
+    width: 534px;
+    height: 304px;
   }
 
   #activity article img {
-    width: 90vw;
-    height: 30vh;
+    width: 534px;
+    height: 215px;
   }
 
   .activity_h2 {
-    margin-left: 4vw;
-    height: 4vh;
+    margin-left: 29px;
+    height: 85px;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 486px;
-    margin-top: 49px;
-    padding-left: 5vw;
-
+    height: 778px;
+    margin-top: 78px;
+    padding-left: 45px;
     gap: 0;
   }
 
   footer h3 {
-    margin-top: 45px;
+    font-size: 1.8rem;
+    margin-top: 78px;
     padding: 0;
   }
 
   footer ul {
-    margin-top: 26px;
+    font-size: 1.6rem;
+    margin-top: 35px;
   }
 }

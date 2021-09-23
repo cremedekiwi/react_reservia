@@ -41,6 +41,12 @@ a:active {
   color: #0065fc;
 }
 
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+}
+
 /* Icon */
 
 .fa-star {
@@ -59,23 +65,21 @@ a:active {
 
 header {
   display: flex;
-  justify-content: space-between;
-  margin-left: 3.68vw;
+  margin-left: 50px;
 }
 
 header img {
   padding-top: 43px;
-  width: 6.666vw;
-  /* width: 96px;
-  height: 29px; */
+  width: 96px;
+  height: 29px;
   object-fit: fill;
 }
 
 /* Menu */
 
 nav {
-  padding-top: 67px;
-  margin-right: 5.347vw;
+  padding-top: 51px;
+  margin-left: 834px;
 }
 
 nav a {
@@ -89,7 +93,7 @@ a:visited {
 
 nav a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 65px;
+  padding-top: 49px;
 }
 
 #nav_subscribe a {
@@ -99,7 +103,7 @@ nav a:hover {
 }
 
 nav ul {
-  gap: 4.72vw;
+  gap: 68px;
   display: flex;
 }
 
@@ -111,17 +115,17 @@ nav li {
 /* Formulaire */
 
 #search {
-  margin-top: 5.38vh;
-  margin-left: 3.68vw;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 #search_title p {
-  margin-top: 1.614vh;
+  margin-top: 15px;
 }
 
 #search_form {
   display: flex;
-  margin-top: 2.045vh;
+  margin-top: 19px;
   height: 51px;
 }
 
@@ -174,8 +178,8 @@ nav li {
 #search_filter {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3.336vh;
-  gap: 3.4vw;
+  margin-top: 31px;
+  gap: 49px;
 }
 
 #search_filter h2 {
@@ -220,7 +224,7 @@ nav li {
 
 input[type="submit"].btn:hover {
   border: 2px solid #0065fc;
-  color:#deebff;
+  color: #deebff;
   background-color: #0065fc;
 }
 
@@ -249,15 +253,15 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 0.83vw;
+  margin-left: 12px;
 }
 
 /* Blocs Hébergements */
 
 #lodging {
-  margin-top: 3.98vh;
+  margin-top: 37px;
+  margin-left: 50px;
   display: flex;
-  justify-content: center;
 }
 
 /* Hébergements */
@@ -265,19 +269,20 @@ input[type="submit"].btn:hover {
 #lodging_marseille {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 61.11vw;
+  width: 880px;
 }
 
 #lodging_marseille h1 {
-  margin-top: 5.059vh;
-  margin-left: 2.847vw;
+  margin-top: 47px;
+  margin-left: 41px;
 }
 
 #lodging_marseille_article_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2.15vw;
+  gap: 31px;
+  margin-top: 23px;
 }
 
 #lodging_marseille_article_container h2 {
@@ -287,34 +292,33 @@ input[type="submit"].btn:hover {
 #lodging_marseille article {
   background-color: white;
   border-radius: 20px;
-  width: 17.083vw;
-  height: 21.42vh;
-  margin-top: 2.475vh;
+  width: 246px;
+  height: 199px;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
 #lodging_marseille article img {
-  margin: 0.538vh 0.347vw 0 0.347vw;
+  margin: 5px 5px 0 5px;
   border-radius: 15px 15px 0 0;
-  width: 16.38vw;
-  height: 12.27vh;
+  width: 236px;
+  height: 114px;
   object-fit: cover;
 }
 
 .lodging_marseille_info {
-  margin-left: 1.11vw;
+  margin-left: 16px;
 }
 
 .lodging_marseille_info p {
-  margin-top: 0.753vh;
+  margin-top: 7px;
 }
 
 .lodging_marseille_info i {
-  margin: 0.861vh 0.138vw 0 0;
+  margin: 8px 2px 0 0;
 }
 
 #lodging_marseille h3 {
-  margin: 4.628vh 0 4.95vh 3.055vw;
+  margin: 43px 0 46px 44px;
 }
 
 /* Les plus populaires */
@@ -322,14 +326,14 @@ input[type="submit"].btn:hover {
 #lodging_popular {
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 29.166vw;
-  margin-left: 2.777vw;
+  width: 420px;
+  margin-left: 40px;
 }
 
 #lodging_popular h1 {
   display: flex;
   justify-content: space-between;
-  margin: 4.95vh 2.708vw 2.798vh 2.638vw;
+  margin: 46px 39px 26px 38px;
 }
 
 #lodging_popular h2 {
@@ -340,23 +344,23 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  gap: 3.55vh;
+  gap: 33px;
 }
 
 #lodging_popular article {
   display: flex;
   background-color: white;
   border-radius: 20px;
-  width: 23.819vw;
-  height: 15.5vh;
+  width: 343px;
+  height: 144px;
   box-shadow: 1px 1px 5px #e4e4e4;
 }
 
 #lodging_popular article img {
   border-radius: 15px 0 0 15px;
-  width: 8.819vw;
-  height: 14.424vh;
-  margin: 0.538vh 1.38vw 0.538vh 0.347vw;
+  width: 127px;
+  height: 134px;
+  margin: 5px 21px 5px 5px;
   object-fit: cover;
 }
 
@@ -367,34 +371,34 @@ input[type="submit"].btn:hover {
 }
 
 .lodging_popular_info h2 {
-  margin-top: 2.045vh;
+  margin-top: 19px;
 }
 
 .lodging_popular_info p {
-  margin-top: 1.29vh;
+  margin-top: 12px;
 }
 
 .lodging_popular_info i {
-  margin: 0 0.138vw 1.506vh 0;
+  margin: 0 2px 14px 0;
 }
 
 /* Activités à Marseille*/
 
 #activity_title {
   display: flex;
-  margin: 6.996vh 0 2.798vh 3.47vw;
+  margin: 65px 0 26px 50px;
 }
 
 #activity {
-  width: 92.847vw;
-  height: 48vh;
+  margin-left: 50px;
+  width: 1337px;
+  height: 446px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
   align-content: center;
-  gap: 3.125%;
+  gap: 43px;
 }
 
 #activity article {
@@ -403,7 +407,7 @@ input[type="submit"].btn:hover {
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 1px 5px #e4e4e4;
-  width: 20.972vw;
+  width: 302px;
 }
 
 #activity article img {
@@ -415,43 +419,43 @@ input[type="submit"].btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1.319vw;
+  margin-left: 19px;
   height: 100%;
 }
 
 .activity_vieuxPort_parcNational {
-  height: 48vh;
+  height: 446px;
 }
 .activity_vieuxPort_parcNational img {
-  height: 41.98vh;
+  height: 390px;
 }
 
 #activity_fortPomegues {
-  height: 26.33vh;
+  height: 237px;
 }
 #activity_fortPomegues img {
-  height: 20.11vh;
+  height: 181px;
 }
 
 #activty_ilesFrioul {
-  height: 18.44vh;
+  height: 165px;
 }
 #activty_ilesFrioul img {
-  height: 12.22vh;
+  height: 109px;
 }
 
 #activity_notreDameGarde {
-  height: 21.78vh;
+  height: 194px;
 }
 #activity_notreDameGarde img {
-  height: 15.56vh;
+  height: 140px;
 }
 
 #activty_parcLongchamp {
-  height: 23.22vh;
+  height: 209px;
 }
 #activty_parcLongchamp img {
-  height: 17vh;
+  height: 153px;
 }
 
 /* Footer */
@@ -460,10 +464,10 @@ footer {
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
-  height: 23.46vh;
-  margin-top: 6.458vh;
-  padding-left: 3.472vw;
-  gap: 15.76vw;
+  height: 218px;
+  margin-top: 60px;
+  padding-left: 50px;
+  gap: 227px;
 }
 
 footer h3 {
@@ -472,5 +476,5 @@ footer h3 {
 }
 
 footer ul {
-  margin-top: 2.475vh;
+  margin-top: 23px;
 }
