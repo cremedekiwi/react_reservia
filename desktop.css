@@ -60,19 +60,21 @@ a:active {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 47px;
   margin-left: 3.68vw;
 }
 
 header img {
-  width: 96px;
-  height: 29px;
-  object-fit: cover;
+  padding-top: 43px;
+  width: 6.666vw;
+  /* width: 96px;
+  height: 29px; */
+  object-fit: fill;
 }
 
 /* Menu */
 
 nav {
+  padding-top: 67px;
   margin-right: 5.347vw;
 }
 
@@ -87,7 +89,7 @@ a:visited {
 
 nav a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 45px;
+  padding-top: 65px;
 }
 
 #nav_subscribe a {

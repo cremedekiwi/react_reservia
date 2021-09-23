@@ -4,9 +4,15 @@
     margin: 4.75vh 0 0 5.31vw;
   }
 
+  header img {
+    padding-top: 0;
+    width: 26.25vw;
+  }  
+
   /* Menu S'inscrire */
 
   nav {
+    padding-top: 0;
     margin-right: 0;
   }
 

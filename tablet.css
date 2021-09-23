@@ -4,11 +4,21 @@
   }
 
   header {
-    padding-top: 6.375vh;
+    padding-top: 0;
     margin-left: 5.33vw;
   }
 
+  header img {
+    padding-top: 5vh;
+    width: 20vw;
+  } 
+
   /* Menu S'inscrire */
+
+  nav {
+    padding-top: 0;
+    margin-right: 0;
+  }
 
   #nav_subscribe {
     position: absolute;
@@ -69,7 +79,7 @@
     margin: 0 auto;
     margin-top: 6vh;
     width: 90vw;
-    height: 8vh;
+    height: 6vh;
   }
 
   /* Icon */
@@ -77,8 +87,8 @@
   .fa-map-marker-alt {
     /* Icon Maps */
     border-radius: 14px 0 0 14px;
-    width: 8vh;
-    height: 8vh;
+    width: 6vh;
+    height: 6vh;
   }
 
   #site_search {
@@ -100,7 +110,7 @@
     visibility: visible;
     background-color: #0065fc;
     color: white;
-    width: 8vh;
+    width: 6vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,7 +217,7 @@
 
   #lodging_marseille article {
     width: 90vw;
-    height: 40vh;
+    height: 38vh;
   }
 
   #lodging_marseille article img {
@@ -216,7 +226,7 @@
   }
 
   .lodging_marseille_info {
-    height: 13vh;
+    height: 11vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -256,7 +266,7 @@
     margin: 0 auto;
     margin-bottom: 24px;
     width: 90vw;
-    height: 38vh;
+    height: 35vh;
   }
 
   #activity article img {
@@ -266,7 +276,7 @@
 
   .activity_h2 {
     margin-left: 4vw;
-    height: 7vh;
+    height: 4vh;
   }
 
   footer {
