@@ -82,8 +82,8 @@
     display: flex;
     margin: 0 auto;
     margin-top: 55px;
-    width: 534px;
-    height: 82px;
+    width: 90vw;
+    height: 8vh;
   }
 
   /* Icon */
@@ -91,12 +91,12 @@
   .fa-map-marker-alt {
     /* Icon Maps */
     border-radius: 14px 0 0 14px;
-    width: 84px;
-    height: 82px;
+    width: 10vw;
+    height: 8vh;
   }
 
   #site_search {
-    width: 367px;
+    width: 70vw;
     padding-left: 27px;
   }
 
@@ -114,7 +114,7 @@
     visibility: visible;
     background-color: #0065fc;
     color: white;
-    width: 83px;
+    width: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,7 +159,7 @@
     order: -1;
     border-radius: 0;
     width: 100%;
-    margin: 63px 0 0 0;
+    margin: 4vh 0 0 0;
   }
 
   #lodging_popular_title {
@@ -171,7 +171,7 @@
   #lodging_popular_title h1 {
     display: flex;
     width: 100%;
-    margin: 68px 30px 0 33px;
+    margin: 4vh 6vw 0 6vw;
   }
 
   #lodging_popular_article_container {
@@ -183,13 +183,13 @@
   }
 
   #lodging_popular article {
-    width: 534px;
+    width: 89vw;
     height: 230px;
     margin-top: 3.75vh;
   }
 
   #lodging_popular article img {
-    width: 203px;
+    width: 38vw;
     height: 215px;
     margin: 8px 32px 0 8px;
   }
@@ -216,21 +216,28 @@
   }
 
   #lodging_marseille h1 {
-    margin-left: 33px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-left: 3vw;
+  }
+
+  #lodging_marseille_article_container {
+    gap: 2vw;
   }
 
   #lodging_marseille article {
-    width: 536px;
-    height: 319px;
+    width: 45vw;
+    height: 30vh;
   }
 
   #lodging_marseille article img {
-    width: 522px;
-    height: 183px;
+    width: 45vw;
+    height: 18vh;
+    margin: 0;
   }
 
   .lodging_marseille_info {
-    height: 120px;
+    height: 11vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,8 +261,8 @@
   /* Activités à Marseille*/
 
   #activity_title {
-    margin-top: 91px;
-    margin-left: 33px;
+    margin-top: 0vh;
+    margin-left: 6vw;
   }
 
   #activity {
@@ -268,24 +275,29 @@
   #activity article {
     display: block;
     margin: 0 auto;
-    width: 534px;
-    height: 304px;
+    width: 90vw;
+    height: 30vh;
   }
 
   #activity article img {
-    width: 534px;
-    height: 215px;
+    width: 90vw;
+    height: 24vh;
   }
 
   .activity_h2 {
     margin-left: 29px;
-    height: 85px;
+    height: 5vh;
+  }
+
+  .activity_h2 h2 {
+    font-size: 1.3rem;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     height: 778px;
     margin-top: 78px;
     padding-left: 45px;
@@ -293,13 +305,15 @@
   }
 
   footer h3 {
-    font-size: 1.8rem;
-    margin-top: 78px;
+    font-size: 1.6rem;
+    /* margin-top: 78px; */
+    margin-bottom: 3vh;
     padding: 0;
   }
 
   footer ul {
-    font-size: 1.6rem;
-    margin-top: 35px;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 8vh;
   }
 }
