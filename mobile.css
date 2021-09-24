@@ -120,9 +120,8 @@
 
   #search_filter {
     padding-left: 36px;
-    margin: 36px 0 0 0;
-    display: flex;
-    gap: 36px;
+    margin-top: 36px;
+    gap: 0px;
   }
 
   #search_filter h2 {
@@ -131,6 +130,11 @@
     width: 100vw;
     position: relative;
     left: -5vw;
+  }
+
+  .filter_icon {
+    margin-right: 28px;
+    margin-top: 13px;
   }
 
   #search_information {
@@ -215,6 +219,15 @@
     height: 100%;
   }
 
+  #lodging_marseille h1 {
+    margin: 41px 0 0 21px;
+  }
+
+  #lodging_marseille_article_container {
+    margin-top: 19px;
+    gap: 12px;
+  }
+
   #lodging_marseille article {
     width: 335px;
     height: 199px;
@@ -259,7 +272,6 @@
   #activity article {
     display: block;
     margin: 0 auto;
-    margin-bottom: 24px;
     width: 334px;
     height: 190px;
   }
