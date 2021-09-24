@@ -465,13 +465,19 @@ input[type="submit"].btn:hover {
 /* Footer */
 
 footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#footer_container {
+  width: 1337px;
+  height: 218px;
   display: flex;
   align-items: center;
-  background-color: #f2f2f2;
-  height: 218px;
-  margin-top: 60px;
-  padding-left: 50px;
-  gap: 227px;
+  justify-content: space-between;
 }
 
 footer h3 {
