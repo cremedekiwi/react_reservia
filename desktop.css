@@ -431,7 +431,10 @@ input[type="submit"].btn:hover {
   height: 446px;
 }
 .activity_vieuxPort_parcNational img {
-  height: 390px;
+  height: calc(100% - 56px);
+}
+.activity_vieuxPort_parcNational .activity_h2 {
+  height: 56px;
 }
 
 #activity_fortPomegues {
